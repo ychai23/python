@@ -1,0 +1,23 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 My two texts bodies come from USNews and New York Times articles. Then I chose 4 sources: my own essay from my writing class, writings of JK. Rowling, excerpt from works of Shakespeare and an article from The Boston Globe to compare to the two texts bodies. Then result of my comparisons is that among all four courses I choose, the writing styles of all four sources are more similar to the article I chose from the New York Times. And the running time of my tests is as follows:\
+\
+scores for usnews : [-6645.822283068947, -3563.667177087838, -6336.387559792141, -149.2479239912178, -9304.80053405665]\
+scores for newyorktimes : [-6259.286094021041, -3519.104659739229, -5966.976678919403, -157.14773754873266, -9310.531975314985]\
+wr100 is more likely to have come from newyorktimes\
+scores for usnews : [-1455.6051579792606, -643.0699816912547, -1443.6383802969808, -22.28321652159868, -1840.7999155762284]\
+scores for newyorktimes : [-1448.3367889481358, -634.6554992088674, -1439.1596755606736, -22.765815783291007, -1842.1356353821016]\
+bostonglobe is more likely to have come from newyorktimes\
+scores for usnews : [-13540.954952413591, -6815.28168759919, -13171.383906096826, -324.34546093399103, -18696.512233350117]\
+scores for newyorktimes : [-12913.77401111861, -6690.715749853414, -12685.14937608691, -381.8172243090283, -18732.570274968853]\
+rowling is more likely to have come from newyorktimes\
+scores for usnews : [-25665.826206086633, -13024.531238185631, -25530.03189446281, -60.906645158196305, -39593.00448994322]\
+scores for newyorktimes : [-23417.24573775893, -12669.20370255501, -24829.83260930911, -60.380275361027245, -39766.45936562098]\
+shakespeare is more likely to have come from newyorktimes\
+\
+I think my text classification program works pretty well, given the result of significant differences on the scores comparing each source. For example, when comparing excerpts from Shakespeare\'92s work, the score for each characteristic appear to be a lot smaller than scores from comparisons with other works. However, there is definitely room for improvement. Fro example, I could make the stem class a better classification class to examine the writing style. Also, I could add more features to compare the writing styles of different sources and approach a more accurate analysis to the works.}
